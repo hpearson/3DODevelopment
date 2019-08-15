@@ -1,0 +1,49 @@
+image data is in 16 bit (1 bit alpha 5 bits red 5 bits green 5 bits blue) big endian format.
+
+3DO Interactive Multiplayer
+http://en.wikipedia.org/wiki/3DO_Interactive_Multiplayer
+
+4DO Emulator
+http://www.fourdo.com/
+
+CD Images:
+http://edgeemu.net/browse-3do-num.htm
+http://theisozone.com/downloads/retro/3do/
+
+requires one of the ARM SDTs (ARM SDT 2.11a, 2.50, and 2.51 have been tested).
+
+
+http://www.3do.cdinteractive.co.uk/viewtopic.php?f=22&t=146&hilit=sdk
+
+---------------
+To compile the example you need: 
+
+1) The contents of 3DODev on the c: drive (or modify the makefile to point to the new location). (modbin will be in c:\3DODev\Bin). 
+
+2) The Arm compiler installed to c:\Arm250 (which is the default). (armcc.exe will be in c:\Arm250\bin). 
+
+3) c:\3DODev\bin in your path. The easiest way to do this is to create ArmDev.bat (name it whatever you want) file containing: 
+
+PATH=C:\3DODev\bin;%PATH% 
+
+Once this is done, extract 3DOBounceExample somewhere (doesn't matter). If you created the ArmDev.bat file, put the file in the 3DOBounce folder. 
+
+Open up a command window and change to the 3DOBounce folder, and type ArmDev. 
+
+...then type make. 
+
+It should build LaunchMe. (There's quite a few warnings, but no errors). 
+
+Copy LaunchMe to the PARCE_cdrom directory 
+(You have to decompile cdrom.iso through the OperaFS[DE]Compiler. Links to cdrom.iso and OperaFS[DE]Compiler can be found on this forum). 
+
+Compile the iso, and run it through 3DOEncrypt (also on this forum). Launch the iso in FreeDO. 
+
+You've just compiled a 3DO program, and didn't have to touch a Mac or a Mac emulator. 
+
+You still have to use a Mac to compile 3DO compatible resources and stuff. Or, write your own image/sound loading routines. The image data is in 16 bit (1 bit alpha 5 bits red 5 bits green 5 bits blue) big endian format. And, I'm sure sound can also be loaded from a standard binary sound format.
+
+
+The ARM SDT 2.11a produces no warnings, and compiles to a file that is pretty much the same as the the one produced by the 3do devkit. I included an ARM SDT 2.11a makefile (makefile.211a). 
+
+The only differences in the image is that my Lib3DO and exampleslib were built without debugging info.

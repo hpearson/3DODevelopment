@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{77227EE4-9497-46E7-B4E7-B91EBB1397E4}"
+	ProjectSection(SolutionItems) = preProject
+		3D.c = 3D.c
+		bitfonts.c = bitfonts.c
+		bitfonts.h = bitfonts.h
+		engine_main.c = engine_main.c
+		engine_main.h = engine_main.h
+		engine_mesh.c = engine_mesh.c
+		engine_mesh.h = engine_mesh.h
+		engine_texture.c = engine_texture.c
+		engine_texture.h = engine_texture.h
+		file.c = file.c
+		font.c = font.c
+		fx_blobs.c = fx_blobs.c
+		fx_blobs.h = fx_blobs.h
+		fx_bump.c = fx_bump.c
+		fx_bump.h = fx_bump.h
+		fx_clouds.c = fx_clouds.c
+		fx_clouds.h = fx_clouds.h
+		fx_dots.c = fx_dots.c
+		fx_dots.h = fx_dots.h
+		fx_fire.c = fx_fire.c
+		fx_fire.h = fx_fire.h
+		fx_linetests.c = fx_linetests.c
+		fx_linetests.h = fx_linetests.h
+		fx_plasma.c = fx_plasma.c
+		fx_plasma.h = fx_plasma.h
+		fx_polar.c = fx_polar.c
+		fx_polar.h = fx_polar.h
+		fx_rotblobs.c = fx_rotblobs.c
+		fx_rotblobs.h = fx_rotblobs.h
+		fx_sphere.c = fx_sphere.c
+		fx_sphere.h = fx_sphere.h
+		fx_stars.c = fx_stars.c
+		fx_stars.h = fx_stars.h
+		fx_test.c = fx_test.c
+		fx_test.h = fx_test.h
+		main.c = main.c
+		main.h = main.h
+		mathutil.c = mathutil.c
+		mathutil.h = mathutil.h
+		scene_grid.c = scene_grid.c
+		scene_grid.h = scene_grid.h
+		scene_test.c = scene_test.c
+		scene_test.h = scene_test.h
+		sound.c = sound.c
+		sprite_engine.c = sprite_engine.c
+		sprite_engine.h = sprite_engine.h
+		tools.c = tools.c
+		tools.h = tools.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
