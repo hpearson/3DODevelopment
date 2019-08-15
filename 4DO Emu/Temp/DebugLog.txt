@@ -1,0 +1,16 @@
+8/15/2019 2:12:56 PM 4DO Starting up
+8/15/2019 2:12:57 PM Video Render - DirectX canvas initialization failed! Will attempt to fall back to windows(GDI) rendering. Error was: SlimDX.Direct3D9.Direct3DX9NotFoundException: Direct3DX 9 was not found. Please install the latest DirectX end-user redistributable package from Microsoft. ---> System.Runtime.InteropServices.SEHException: External component has thrown an exception.
+   at D3DXCheckVersion(UInt32 , UInt32 )
+   at SlimDX.Direct3D9.Direct3D..ctor()
+   --- End of inner exception stack trace ---
+   at SlimDX.Direct3D9.Direct3D..ctor()
+   at FourDO.UI.Canvases.SlimDXCanvas.Initialize()
+   at FourDO.UI.GameCanvas.CreateChildCanvas()
+8/15/2019 2:14:42 PM GameSource - No cue file found. After taking a guess on the format based on file type and file size, the format used will be: MODE1_2048
+8/15/2019 2:15:03 PM GameSource - No cue file found. After taking a guess on the format based on file type and file size, the format used will be: MODE1_2048
+8/15/2019 2:16:08 PM GameSource - No cue file found. After taking a guess on the format based on file type and file size, the format used will be: MODE1_2048
+8/15/2019 2:17:24 PM GameSource - No cue file found. After taking a guess on the format based on file type and file size, the format used will be: MODE1_2048
+8/15/2019 2:18:34 PM GameSource - No cue file found. After taking a guess on the format based on file type and file size, the format used will be: MODE1_2048
+8/15/2019 2:21:03 PM GameSource - No cue file found. After taking a guess on the format based on file type and file size, the format used will be: MODE1_2048
+8/15/2019 2:27:29 PM GameSource - No cue file found. After taking a guess on the format based on file type and file size, the format used will be: MODE1_2048
+8/15/2019 2:28:02 PM 4DO Shutting down
